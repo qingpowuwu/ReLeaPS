@@ -22,8 +22,16 @@ git clone --recurse-submodules https://github.com/jhchan0805/ReLeaPS
 [3]: https://sites.google.com/site/photometricstereodata/single
 
 ### Training
-  * Download the synthetic dataset for training from: [datasets](https://drive.google.com/file/d/1hZtjtY8DMOk-sITT_AoZzBs5oZzVdgkk/view?usp=drive_link) and place under `data`.
+  * Download the synthetic dataset (blobs & sculpture) for training from: [datasets](https://drive.google.com/file/d/1hZtjtY8DMOk-sITT_AoZzBs5oZzVdgkk/view?usp=drive_link) and place under `data`.
+    ![image](https://github.com/user-attachments/assets/350d1fa9-fbe0-48a5-b962-8a47cd71a840)
+
   * Run `run_train.sh`.
+    * `make train`
+      * 这个 代码可以让你 使用 Makefile 里面定义好的 `make train` 指令, 这个的作用和 `run_train.sh` 是一样的
+    * `make benchmark`
+      * 这个 代码可以让你 使用 Makefile 里面定义好的 `make benchmark` 指令
+
+     ![image](https://github.com/user-attachments/assets/3512aca9-46b0-44d3-9370-d61bfc4202a4)
 
 ### Evaluation
   * Train the models yourself or download the pre-trained models from: [TBD]() and place under `data/models`.
